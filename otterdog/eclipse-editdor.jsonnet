@@ -15,6 +15,7 @@ orgs.newOrg('iot.editdor', 'eclipse-editdor') {
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
       default_workflow_permissions: "write",
+      fork_pr_approval_policy: "first_time_contributors_new_to_github",
     },
   },
   _repositories+:: [
